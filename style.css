@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(236, 236, 227);
+}
+.intro{
+    background: url(back.jpg);
+    padding-bottom: 150px ;
+}
+.head{
+    font-size: 140px;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.sub{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.expl{
+    background: #fff;
+    width: 130px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 34px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+.jour{
+    width: 126px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    margin-left: 50px;
+}
+.buttonarea{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.travel{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(101, 196, 101);
+    padding-bottom: 10px;
+    
+}
+.det{
+    padding: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    line-height: 25px;
+    color: #111;
+    font-family: sans-serif;
+}
+.one{
+    background: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -70px;
+    display: block;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    width: 70%;
+    margin-left: 2%;
+}
+.flex{
+    width: 30%;
+}
+.others{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #fff;
+    
+    cursor: pointer;
+}
+.bottom{
+    padding: 20px;
+}
+.card .bottom h1{
+    margin-bottom: 20px;
+}
+ .card .bottom h3{
+    margin-bottom: 10px;
+}
+.card .bottom p{
+    margin-bottom: 10px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    margin-right: 5px;
+    width: 48%;
+}
+.second{
+    margin-left: 5px;
+    width: 48%;
+
+}
+.recent{
+    margin-left: 5%;
+    padding: 5%;
+    background: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+.recent h1{
+    margin-bottom: 15px;
+}
+.recent p{
+    line-height: 28px;
+}
+@media(max-width: 900px){
+    .head{
+        font-size: 40px;
+    }
+    .content{
+        display: block;
+    }
+    .list{
+        width: 96%;
+        margin-left: 0;
+        padding: 2%;
+    }
+    .more{
+        display: block;
+    }
+    .first{
+        margin-right: 0;
+        width: 99%;
+    }
+    .second{
+        margin-left: 0;
+        width: 99%;
+    }
+    .flex{
+        width: 100%;
+    }
+    .others{
+        width: 80%;
+        padding: 0;
+
+    }
+    .recent{
+        width: 94%;
+        margin-left: 0;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .expl{
+        margin-right: 20px;
+        width: 70px;
+        font-size: 10px;
+
+    }
+    .jour{
+        margin-left: 20px;
+        width: 70px;
+        font-size: 10px;
+    }
+}
